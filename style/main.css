@@ -1,0 +1,98 @@
+:root{
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* elementos base */
+body{
+  background: var(--preto);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo{
+  color: var(--vermelho);
+  font-family: 'Arial Black';
+  font-size: 70px;
+  margin-left: 5px;
+
+}
+
+header nav a{
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 30px;
+  font-size: 30px;
+  
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+/*Filme principal*/
+
+.filme-principal{
+  font-size: 32px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)100%), url(/img/La\ casa\ de\ papel.jpg);
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao{
+  margin-bottom: 50px;
+  
+}
+
+.titulo{
+  margin-top: 15%;
+  margin-bottom: 20px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+
+}
+
+.botao{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 15px 10px;
+  font-size: 14px;
+  transition: .3s ease all;
+}
+
+.botao:hover{
+  background-color: white;
+  color: black;
+}
+
+ .filme-principal .container{
+  margin-left: 10px;
+  width: 75%;
+}
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrosel-filmes{
+  margin-top: 7px;
+}
