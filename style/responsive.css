@@ -25,12 +25,12 @@
 
 @media screen and (min-width:1000px){
   .descricao{
-    width: 60%;
+    width: 70%;
   }
   .titulo{
     margin-top: 5%;
   }
   .filme-principal{
-    font-size: 28px;
+    font-size: 25px;
   }
 }
